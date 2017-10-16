@@ -11,9 +11,9 @@ export class ListComponent implements OnInit {
   @Input()
   @Output()
   all : Person[] = new  Array<Person>();
+
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
 }
